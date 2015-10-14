@@ -5,7 +5,7 @@
  * 
  * PHP version 5
  *
- * @author     Ettore Moretti <author@example.com>
+ * @author     Ettore Moretti <ettoremoretti27@gmail.com>
  * @version 1.0.0
  *  
  */
