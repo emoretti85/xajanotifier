@@ -7,7 +7,7 @@
  *
  * PHP version 5
  *
- * @author     Ettore Moretti <author@example.com>
+ * @author     Ettore Moretti <ettoremoretti27@gmail.com>
  * @version 1.0.0
  *
  */
@@ -18,7 +18,7 @@ class XajaAdminServer {
 	private $DB;
 	
 	public function __construct() {
-		$this->DB = new PDO ( "mysql:host=localhost;dbname=xaja", "root", "" );
+		$this->DB = new PDO ( "mysql:host=".Config::DB_HOST.";dbname=".Config::DB_NAME."", Config::DB_USER, Config::DB_PSWD );
 		$this->clearOldUser();
 	}
 	
